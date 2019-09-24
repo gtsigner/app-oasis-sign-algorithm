@@ -38,7 +38,7 @@ export module Oasis {
 
     export class Account {
         public cuid: string = "0";
-        public accessToken: string = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjgxNjY0MTQsIm5iZiI6MTU2ODE2NjQxNCwianRpIjoiOWQ5NjZiM2QtYjM5Zi00MDVjLTg5ZjktNGFkZmRiNTMxY2IzIiwiZXhwIjoxNTY5ODk0NDE0LCJpZGVudGl0eSI6NzMwMzg2NzU5NywiZnJlc2giOmZhbHNlLCJ0eXBlIjoiYWNjZXNzIn0.9vLKxzkZhSU9FJ0JiXL1HQ6JEl_5quZK_b5c9i6iYWc";
+        public accessToken: string = "";
         private host: string = "https://oasis.chengdu.weibo.cn";
         public _form = {
             ua: 'Xiaomi-MI 5_oasis_1.4.2_Android_7.0',
